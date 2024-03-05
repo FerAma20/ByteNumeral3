@@ -1,4 +1,4 @@
-Rutas
+#Rutas
 1.	GET – Obtiene el listado de empresas
 “http://localhost:8001/listar”
 
@@ -26,17 +26,17 @@ Body:
 4.	DELETE – Elimina un registro mediante su ID
 “http://localhost:8001/delete/2”
 
-Ejecutar Proyecto
+#Ejecutar Proyecto
 Ejecutar comando para construir el archivo .jar en la carpeta raiz del proyecto “mvn clean package”.
 Ejecutar comando para levantar el proyecto compilado en el archivo .jar, ejecutarlo en la carpeta donde este ubicado el archivo “java -jar nombre-del-archivo.jar”
 
 
 
-Esquema de la base de datos
+#Esquema de la base de datos
  ![Captura de pantalla (335)](https://github.com/FerAma20/ByteNumeral3/assets/62443757/94a1134d-c508-46cb-acd5-fa9780b608a6)
 
 
-Script de la DB
+#Script de la DB
 
 CREATE DATABASE bytes
 USE bytes
